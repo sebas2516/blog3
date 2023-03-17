@@ -1,0 +1,830 @@
+.all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7);
+}
+
+.head{
+    background-image: url("/IMG/camion1.png");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 730px;
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.C-S{
+    width: 60%;
+    height: 680px;
+    float: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* width: 50%; */
+}
+
+.C-S1{
+    background-image: url(/IMG/marco2.PNG) ;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 55%;
+    margin-top: 110px;
+}
+
+.circle{
+    float: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 680px;
+}
+
+.div-uno{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 750px;
+}
+
+.div-dos{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 800px;
+}
+
+.div-tres{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 900px;
+}
+
+.div-cuatro{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 900px;
+}
+
+.div-cinco{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 900px;
+}
+
+.div-seis{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 800px;
+}
+
+.logos{
+    background: rgba(20, 33, 55, 0.80);
+    height: 80px;
+}
+
+.logoColtrack{
+    margin: 0px 0px 25px 90px;
+    height: 60px;
+}
+
+.whatsApp{
+    height: 60px;
+    margin: 15px 0px 15px 800px;
+}
+
+.whatsApp2{
+    height: 80px;
+    margin: 15px 0px 15px 800px;
+}
+
+/* .marco2{
+    margin-top: 110px;
+    height: 360px;
+    width: 100%;
+    margin-left: 0px;
+} */
+
+.text1{
+    width: 85%;
+    font-size: 68px;
+    color: white;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    margin: 80px 80px 0px;
+}
+
+.text2{
+    width: 80%;
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    margin: 70px 8px 0px 80px;
+}
+
+a{
+    text-decoration: none;
+    color: #142137;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #142137;
+}
+
+.text3{
+    width: 50%;
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    margin: 0px 8px 5px 80px;
+}
+
+.basc{
+    width: 120px;
+    margin: 40px 100px;
+}
+
+.candado{
+    width: 430px;
+    border-radius: 50%;
+    border: 15px solid #22afe6;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 80px;
+    height: 420px;
+}
+
+#coltrack{
+    background-image: url(/IMG/containers.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.marco11{
+    background: url(/IMG/marco.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 95%;
+    margin: 0% 5%;
+}
+
+.video{
+    float: left;
+    width: 92%;
+    height: 92.5%;
+    margin: 2% 4%;
+}
+
+.DTC{
+    background-image: url(/IMG/carretera.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.DTC1{
+    border: 1px solid green;
+    width: 50%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.F1{
+    background-image: url(/IMG/fondo1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40%;
+    border: 1px solid red;
+}
+
+.texto{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.sect1{
+    margin: 0px 10%;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.sect2{
+    margin: 30px 10%;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.fondo1{
+    width: 550px;
+    height: 130px;
+}
+
+.fondo2{
+    width: 550px;
+    height: 130px;
+}
+
+.triangulos1{
+    width: 70px;
+    margin: 8% 0% 0% 8%;
+    float: left;
+}
+
+.triangulos2{
+  
+    width: 70px;
+}
+
+.transito{
+    font-size: 40px;
+    color: white;
+    margin: 7% 7%;
+    float: left;
+}
+
+
+.imgs1{
+    border: 1px solid red;
+    width: 50%;
+    height: 40%;
+    margin-top: 40px;
+}
+
+.transito2{
+    position: absolute;
+    top: 266.5%;
+    left: 18%;
+    font-size: 40px;
+    color: white;
+}
+
+.p-uno{
+    /* margin-left: 600px; */
+    width: 600px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: left;
+}
+
+
+.p-dos{
+    margin-left: 600px;
+    position: absolute;
+    top: 273%;
+    width: 600px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.layer1{
+    width: 15%;
+    float: left;
+    border: 1px solid red;
+}
+
+.truck1{
+   margin-left: 5%;
+   width: 60%;
+   height: 100%;
+   float: left;
+   border: 1px solid red;
+   padding-left: 20px;
+}
+
+.layer2{
+    width: 15%;
+    float: left;
+    border: 1px solid red;
+    margin-left: 5%;
+
+}
+
+.layer3{
+    position: absolute;
+    top: 283%;
+    width: 80px;
+    left: 12%;
+}
+
+.truck2{
+    position: absolute;
+    top: 285%;
+    left: 16.9%;
+    height: 100px;
+}
+
+.truck3{
+    position: absolute;
+    top: 288.7%;
+    left: 31%;
+    height: 70px;
+}
+
+.layer4{
+    position: absolute;
+    top: 283%;
+    width: 80px;
+    left: 41%;
+}
+
+.ventajas{
+    background-image: url(/IMG/truck_carretera.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h4{
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    margin-left: 200px;
+    font-weight: 700;
+}
+
+.columnas1{
+    margin: 0px 10%;
+    width: 80%;
+    height: 300px;
+}
+
+.columna1{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background: rgba(76, 97, 120, 0.9);
+}
+
+.img1{
+    margin: 10% 35% 5%;
+    width: 120px;
+}
+
+.p1{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 35px;
+}
+
+.columna2{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background: rgba(180, 157, 59, 0.9);
+}
+
+.img2{
+    margin: 10% 35% 2%;
+    width: 120px;
+}
+
+.p2{
+    text-transform: none;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 22px;
+    margin: 0% 3%;
+    letter-spacing: 0;
+}
+
+.columna3{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background: rgba(56, 145, 184, 0.9);
+}
+ 
+.img3{
+    margin: 10% 35% 5%;
+    width: 120px;
+}
+
+.p3{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 35px;
+}
+
+.columnas2{
+    margin: 0px 10%;
+    width: 80%;
+    height: 300px;
+}
+
+.columna4{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: rgba(76, 97, 120, 0.9);
+    margin-left: 10%;
+}
+.img4{
+    margin: 10% 35% 0%;
+    width: 120px;
+}
+
+.p4{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 35px;
+}
+
+.columna5{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: rgba(180, 157, 59, 0.9);
+}
+
+.img5{
+    margin: 10% 35% 5%;
+    width: 120px;
+}
+
+.p5{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 35px;
+}
+
+.descripcion{
+    background-image: url(/IMG/carretera1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.desc{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 100px;
+    border-top: 8px dashed #fac103;
+    border-bottom: 8px dashed #fac103;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.marco3{
+    margin: 3% 5% 5% 5%;
+    width: 90%;
+}
+
+.ctrl{
+    position: absolute;
+    top: 442%;
+    left: 12.5%;
+    font-size: 30px;
+}
+
+.img-ctrl{
+    width: 100px;
+    position: absolute;
+    top: 449%;
+    left: 14%;
+}
+
+.ctrl1{
+    position: absolute;
+    top: 464%;
+    left: 8%;
+    font-size: 30px;
+    text-align: justify;
+    width: 265px;
+    font-size: 20px;
+}
+
+.segto{
+    position: absolute;
+    top: 442%;
+    left: 33%;
+    font-size: 30px;
+}
+
+.img-segto{
+    width: 120px;
+    position: absolute;
+    top: 449%;
+    left: 35.5%;
+}
+
+.segto1{
+    position: absolute;
+    top: 464%;
+    left: 31%;
+    font-size: 30px;
+    text-align: justify;
+    width: 265px;
+    font-size: 20px;
+}
+
+.sist{
+    position: absolute;
+    top: 442%;
+    left: 53%;
+    font-size: 30px;
+}
+
+.img-sist{
+    width: 100px;
+    position: absolute;
+    top: 451%;
+    left: 58%;
+}
+
+.sist1{
+    position: absolute;
+    top: 464%;
+    left: 53%;
+    font-size: 30px;
+    text-align: justify;
+    width: 265px;
+    font-size: 20px;
+}
+
+.acomp{
+    position: absolute;
+    top: 442%;
+    left: 75%;
+    font-size: 30px;
+}
+
+.img-acomp{
+    width: 100px;
+    position: absolute;
+    top: 449%;
+    left: 81%;
+}
+
+.acomp1{
+    position: absolute;
+    top: 464%;
+    left: 73.7%;
+    text-align: justify;
+    font-size: 30px;
+    width: 295px;
+    font-size: 20px;
+}
+
+.desc1{
+    text-align: left;
+    margin-left: 100px;
+    border-bottom: 8px dashed #fac103;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 60%;
+}
+
+.services{
+    background-image: url(/IMG/trucks.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.marco4{
+    margin-left: 70px;
+}
+
+.serv1{
+    position: absolute;
+    top: 512%;
+    left: 11%;
+    margin-bottom: 500px;
+}
+
+.fondo3{
+    margin: 0px 5%;
+    width: 90%;
+}
+
+.world{
+    position: absolute;
+    top: 554%;
+    left: 15%;
+    width: 120px;
+}
+
+.world1{
+    position: absolute;
+    top: 570%;
+    left: 12%;
+    width: 200px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.lock{
+    position: absolute;
+    top: 535%;
+    left: 35%;
+    width: 160px;
+}
+
+.lock1{
+    position: absolute;
+    top: 552%;
+    left: 33%;
+    width: 200px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.mapa{
+    position: absolute;
+    top: 554%;
+    left: 56%;
+    width: 150px;
+}
+
+.mapa1{
+    position: absolute;
+    top: 572%;
+    left: 55%;
+    width: 200px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.radar{
+    position: absolute;
+    top: 533%;
+    left: 77%;
+    width: 120px;
+    height: 210px;
+}
+
+.radar1{
+    position: absolute;
+    top: 562%;
+    left: 74.5%;
+    width: 200px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.mapa2{
+    width: 100%;
+    height: 820px;
+    background: #142137;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.ubicacion{
+    background-image: url(/IMG/edificio.jpg);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+    margin: 0px 2%;
+
+}
+
+#map{
+    width: 80%;
+    height: 100%;
+}
+
+.edificio{
+    width: 90%;
+    height: 310px;
+    margin: 5% 5% 0% 5%;
+}
+
+#map{
+    width: 73%;
+    height: 100%;
+    position: absolute;
+    top: 4830px;
+    bottom: 0%;
+    left: 25%;
+}
+
+.ubi1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.logo{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.whatsApp3{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.num{
+    width: 50%;
+    color: white;
+    margin: 10px 25% 0px 30%;
+    font-size: 28px;
+}
+
+.email{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.redes{
+    margin-left: 100px;
+}
+
+#inst{
+    color:#ffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+#lnkd{
+    color:#ffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+#twitter{
+    color:#ffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+#fcbk{
+    color:#ffff;
+    text-align: center;
+    font-size: 40px;
+}
